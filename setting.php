@@ -1,4 +1,4 @@
-<?php
+<?html
 
 $namafile = 'VIDEO VIRAL 2022'; // Nama File
 
